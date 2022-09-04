@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;300;500&family=DM+Mono:wght@300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+Fonte monoespaçada para não precisar de ajuste entre as letras
+font-family: 'Nova Mono', monospace;
+font-family: 'Azeret Mono', monospace;
+font-family: 'DM Mono', monospace;
+*/
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#relogioDigital {
+  font-family: 'Nova Mono', monospace;
+  /* Ainhamento de Conteudo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  /* Ajuste da Caixa */
+  margin: 1rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+  /* Cor */
+  background-color: #222;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+telaSmart {
+  font-family: 'DM Mono', monospace;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  user-select: none;
+  padding: 1rem;
+  border-radius: 20px;
+  background: #111;
+  color: cyan;
+  text-align: center;
+  font-size: 2rem;
+
+
+
+}
