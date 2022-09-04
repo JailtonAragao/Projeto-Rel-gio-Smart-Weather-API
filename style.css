@@ -1,11 +1,7 @@
+/* Importe de fontes do google */
+
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;300;500&family=DM+Mono:wght@300;500&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 /*
 Fonte monoespaçada para não precisar de ajuste entre as letras
@@ -13,6 +9,13 @@ font-family: 'Nova Mono', monospace;
 font-family: 'Azeret Mono', monospace;
 font-family: 'DM Mono', monospace;
 */
+
+/* Normalizando o body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 section {
   display: flex;
