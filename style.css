@@ -41,9 +41,8 @@ section {
   text-align: center;
 }
 
-telaSmart {
+#telaSmart {
   font-family: 'DM Mono', monospace;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,7 +53,57 @@ telaSmart {
   color: cyan;
   text-align: center;
   font-size: 2rem;
+}
 
+#relogioSmart {
+  user-select: none;
+  margin-top: 1rem;
+}
 
+#hSmart,
+#mSmart {
+  font-size: 2rem;
+}
 
+#sSmart {
+  font-size: 1rem;
+}
+
+#dataSmart {
+  user-select: none;
+  color: magenta;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+#semana {
+  color: greenyellow;
+}
+
+/* Método animação definodo como picar */
+@keyframes piscar {
+  to {
+    opacity: 1;
+  }
+
+  from {
+    opacity: 0;
+  }
+}
+
+/* Invocado o metod keyflame piscar */
+.doisPontos {
+  animation: piscar 1s infinite;
+}
+
+.doisPontos:last-child {
+  font-size: 0.5rem;
+}
+
+#temperatura {
+  user-select: none;
+  margin-top: 1rem;
+  font-family: sans-serif;
+  font-size: 0.5rem;
+  color: #fff;
 }
