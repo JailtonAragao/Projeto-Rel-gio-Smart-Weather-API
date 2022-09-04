@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -14,9 +14,42 @@
   <main class="tela-principal">
 
     <section class="conteudo">
+      <!-- Relogio Digital -->
+      <div id="relogioDigital">
+        <span id="h">:</span>
+        <span id="m">:</span>
+        <span id="s"></span>
+      </div>
+      <!-- Relogio Smart / Com horario / dia da semana / data / Temp/Umidade -->
+      <div id="telaSmart">
 
+        <!-- Relogio da TelaSmart -->
+        <div id="relogioSmart">
+          <span id="hSmart"></span>
+          <span class="doisPontos">:</span>
+          <span id="hSmart"></span>
+          <span class="doisPontos">:</span>
+          <span id="hSmart"></span>
+        </div>
+
+
+        <!-- Dia da Semana e Data-->
+        <div id="dataSmart">
+          <span id="semana"></span>
+          <span id="data"></span>
+        </div>
+
+        <!-- Cidade e Temperatura -->
+        <div id="temperatura">
+          <h1 class="city">
+            <h2>🌡
+              <span id="temp"></span>°C 💧
+              <span id="umidade"></span>%
+            </h2>
+          </h1>
+        </div>
+      </div>
     </section>
-
   </main>
 
   <!-- JavaScript  -->
