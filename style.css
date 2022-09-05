@@ -17,6 +17,10 @@ font-family: 'DM Mono', monospace;
   box-sizing: border-box;
 }
 
+body {
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #007bff 100%);
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -25,7 +29,7 @@ section {
 }
 
 #relogioDigital {
-  font-family: 'Nova Mono', monospace;
+  font-family: 'Azeret Mono', monospace;
   /* Ainhamento de Conteudo */
   display: flex;
   align-items: center;
@@ -36,7 +40,7 @@ section {
   padding: 0 1rem;
   font-size: 2rem;
   /* Cor */
-  background-color: #222;
+  background-image: radial-gradient(circle, #5c0067 0%, #b300ff 100%);
   color: #fff;
   border: 0;
   border-radius: 8px;
@@ -52,8 +56,7 @@ section {
   user-select: none;
   padding: 1rem;
   border-radius: 20px;
-  background: #111;
-  color: cyan;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   text-align: center;
   font-size: 2rem;
 }
@@ -74,7 +77,7 @@ section {
 
 #dataSmart {
   user-select: none;
-  color: magenta;
+  color: rgb(51, 0, 255);
   display: inline-block;
   font-size: 1rem;
 }
